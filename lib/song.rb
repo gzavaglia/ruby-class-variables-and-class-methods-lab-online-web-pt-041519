@@ -34,7 +34,13 @@ class Song
   end
   
   def self.genre_count
-     
+     gen_count = Hash.new
+     @@genres.each do |gen|
+     gen_count.each do |key, value|
+       if gen_count.include?(gen)
+        
+     end 
+   end 
   end
   
   def self.artist_count
