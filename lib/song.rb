@@ -56,6 +56,4 @@ end #end method
       end #end do 2 
   return gen_count
 end #end method 
-  end
-  
 end 
