@@ -45,6 +45,7 @@ class Song
        end #end if 
       # end #end do 1 
   end #end do 2 
+  return gen_count
 end #end method 
   
   def self.artist_count
