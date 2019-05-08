@@ -54,6 +54,6 @@ end #end method
           art_count[gen] += 1 
        end #end if 
       end #end do 2 
-  return gen_count
+  return art_count
 end #end method 
 end 
