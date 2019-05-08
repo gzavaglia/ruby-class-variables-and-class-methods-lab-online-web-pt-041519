@@ -39,9 +39,9 @@ class Song
     # gen_count.each do |key, value|
        value = 0 
        if gen_count.include?(gen) == false
-         gen_count[gen]
+         gen_count[gen] = 0 
         else
-          value += 1
+          gen_count[gen] =+ 1 
        end #end if 
       # end #end do 1 
   end #end do 2 
