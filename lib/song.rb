@@ -39,7 +39,7 @@ class Song
      @@genres.each do |gen|
        if gen_count.include?(gen) == false
          gen_count[gen] = 1  
-         i += 1 
+         #i += 1 
         else
           gen_count[gen] += 1 
        end #end if 
