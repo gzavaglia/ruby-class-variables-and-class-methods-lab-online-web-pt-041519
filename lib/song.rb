@@ -36,14 +36,14 @@ class Song
   def self.genre_count
      gen_count = Hash.new
      @@genres.each do |gen|
-     gen_count.each do |key, value|
+    # gen_count.each do |key, value|
        value = 0 
        if gen_count.include?(gen) == false
-         key = gen
+         gen_count[gen]
         else
           value += 1
        end #end if 
-      end #end do 1 
+      # end #end do 1 
   end #end do 2 
 end #end method 
   
