@@ -42,9 +42,10 @@ class Song
          key = gen
         else
           value += 1
-       end 
-   end 
-  end
+       end #end if 
+      end #end do 1 
+  end #end do 2 
+end #end method 
   
   def self.artist_count
     
