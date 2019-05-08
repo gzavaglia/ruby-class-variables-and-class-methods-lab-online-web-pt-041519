@@ -37,9 +37,12 @@ class Song
      gen_count = Hash.new
      @@genres.each do |gen|
      gen_count.each do |key, value|
-       if gen_count.include?(gen)
-        
-     end 
+       value = 0 
+       if gen_count.include?(gen) == false
+         key = gen
+        else
+          value += 1
+       end 
    end 
   end
   
