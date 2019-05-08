@@ -35,21 +35,27 @@ class Song
   
   def self.genre_count
      gen_count = Hash.new
-     #while i < @@genres.length
      @@genres.each do |gen|
        if gen_count.include?(gen) == false
          gen_count[gen] = 1  
-         #i += 1 
         else
           gen_count[gen] += 1 
        end #end if 
-      #end #end do 1 
-  end #end do 2 
+      end #end do 2 
   return gen_count
 end #end method 
   
   def self.artist_count
-    
+    art_count = Hash.new
+     @@artists.each do |gen|
+       if art_count.include?(gen) == false
+         art_count[gen] = 1  
+        else
+          art_count[gen] += 1 
+       end #end if 
+      end #end do 2 
+  return gen_count
+end #end method 
   end
   
 end 
